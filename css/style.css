@@ -1,0 +1,33 @@
+/* CSS - HOMEPAGE*/
+.home{
+    background-image: url("img/banner-claro.png")
+}
+
+
+
+/* CSS PROFILE MOBILE*/
+*{
+    margin: 0;
+}
+
+nav{
+    background-color:#674582;
+    padding-bottom:30px;
+}
+
+.nav__menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 50px 0;
+}
+
+
+li{
+    display: none;
+}
+
+.nav__social-media{
+    display: none;
+}
+
+
