@@ -1,30 +1,39 @@
 /* CSS - HOMEPAGE*/
 *{
+     box-sizing: border-box;
     margin: 0;
 }
 html{
     font-size: 10px;
 }
 
+.container{
+    width: 90%;
+   /* margin-left: 2.5rem; Find out why container is justified left
+   display: flex;*/
+   margin: 0 auto;
+}
+
+/* HOMEPAGE NAV  */
 nav{
-    background-color:#674582;
-    padding:5rem 0;
+    background-color:#634582;
+    padding:1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .nav__logo{
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     width:70%;
 }
 
 .nav__hamb{
-    width: 350%; /*Check why image stretches sometimes*/
+    width: 5rem; /*Check why image stretches sometimes*/
     padding-top: 1.5rem;
 }
 
-li{
+.nav__menu li{
     display: none;
 }
 
@@ -36,30 +45,78 @@ li{
 .banner{
     background-image: url(../img/banner-claro.png);
     background-size: cover;
-    height: 50vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
-
+    background-repeat: no-repeat;
+    background-position: 10%;
 }
 
 .banner__text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
     color: #fff;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 .banner__heading{
-   font-size:6.5rem;
-   margin: 2.5rem 0;
+    font-size: 3.5rem;
+    margin: 5rem 0;
+    font-weight: 800;
 }
 .banner__p{
-    font-size: 5rem;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom:5rem;
 }
 .btn{
     text-transform: uppercase;
     background-color:#C083B9;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     max-width: 50rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
 }
+
+/* WOMEN SECTION */
+    .women__array{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: center;  
+    }
+    .women__info{
+        text-align: center;
+    }
+    .women__subheading{
+        font-family: 'Roboto Slab', Arial, Helvetica, sans-serif; 
+        font-size: 2rem; 
+        color:#63458A;
+        margin: 2rem;
+    }
+    .women__picture img{
+        background-color:#634582;  
+        border-radius: 1rem; 
+        padding: .5rem;
+        width: 15rem;
+        margin: 1rem;
+    }
+    .about{
+        background-color: #323534;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+    .about__list li{ /*Check naming*/
+        list-style: none;
+        color:#fff;
+    }
+    .about__logo{
+        width: 20%;
+        margin-left: 2rem;
+
+    }
