@@ -9,6 +9,7 @@ html{
     font-size: 10px;
 }
 
+
 .container{
     width: 90%;
    /* margin-left: 2.5rem; Find out why container is justified left
@@ -62,6 +63,7 @@ nav{
     color: #fff;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
+
 .banner__heading{
     font-size: 3.5rem;
     margin: 5rem 0;
@@ -93,8 +95,7 @@ nav{
 }
 .women__info{
 	text-align: center;
-	font-family: Montserrat, Arial, Helvetica, sans-serif; 
-	margin-bottom: 2rem;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;margin-bottom: 2rem;
 }
 .women__subheading{
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif; 
@@ -122,7 +123,6 @@ nav{
 .about__list li{ /*Check naming*/
 	list-style: none;
 	color:#fff;  /*Why there is a padding beside the list?*/
-
 }
 .about__logo{
 	width: 20%;
@@ -140,3 +140,40 @@ footer{
 	text-align: center;
 	padding: 0.5rem;
 }	
+
+/* JOY MANGANO */
+.banner-joy{
+    background-image: url(../img/joy-mangano-main.jpg);
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    position:relative;
+}
+.intro-joy{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.intro-joy__about{
+   width:90%;
+   
+}
+.banner-joy__heading{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 5rem;
+    color:#634582;
+    position: absolute;
+    bottom:2rem;
+}
+.intro-joy__img{
+    /* clip-path: circle(50px at left); */
+    border-radius: 2rem;
+    max-width: 90%;
+}
+
+.intro-joy__quotes{
+    
+}
