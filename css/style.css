@@ -15,27 +15,26 @@ body{
 
 
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 					/* HOMEPAGE NAV  */
 nav{
-    background-color:#634582;
-    padding:1rem 0;
+    background-color: #634582;
+    padding: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .nav__logo{
-    padding-top: 0.5rem;
-    width:70%;
+    width: 60%;
 }
 
 .nav__hamb{
     width: 5rem; /*Check why image stretches sometimes*/
-    padding-top: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .nav__menu li{
@@ -51,7 +50,7 @@ nav{
 .banner{
     background-image: url(../img/banner-claro.png);
     background-size: cover;
-    height: 90vh;
+    height: 50rem;
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
@@ -66,12 +65,12 @@ nav{
 }
 
 .banner__heading{
-    font-size: 3.5rem;
-    margin: 5rem 0;
+    font-size: 3rem;
+    margin: 2.5rem 0;
     font-weight: 800;
 }
 .banner__p{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 5rem;
 }
@@ -84,6 +83,45 @@ nav{
     color: #fff;
     font-size: 2rem;
     font-weight: 700;
+}
+
+/* MEDIA QUERY FOR HOMEPAGE STARTS HERE */
+
+@media only screen and (min-width: 768px){
+	
+	.banner{
+    height: 50vh;
+    background-position: 20%;
+	}	
+	.banner__heading {
+    margin: 5rem 0;
+	}
+	.container{
+    width: 70%;
+    margin: 0 auto;
+	text-align: center;
+	}
+	.nav__logo{
+    width:50%;
+	}	
+}
+
+@media only screen and (min-width: 1280px){
+	
+	.nav__logo{
+    width: 12%;
+	}	
+	.nav__menu li{
+    display: flex;
+	justify-content: center;
+	}
+	.nav__hamb{
+    display: none;
+	}	
+	
+	.nav__social-media{
+    display: flex;
+	}	
 }
 
 					/* WOMEN SECTION */
@@ -163,16 +201,16 @@ footer{
 }
 
 .intro-joy__about{
-   width: 90%;   
+	width: 90%;   
 }
 
 .banner-joy__heading{
-    font-family: Montserrat;
-    font-weight: 800;
-    font-size: 5rem;
-    color: #634582;
-    position: absolute;
-    bottom: 2rem;
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 5rem;
+	color: #634582;
+	position: absolute;
+	bottom: 2rem;
 }
 .intro-joy__img{
     /* clip-path: circle(50px at left); */
